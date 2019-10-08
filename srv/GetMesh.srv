@@ -1,0 +1,7 @@
+# GetMesh definition
+
+string mesh_id
+---
+Mesh mesh
+bool success
+string error

@@ -1,0 +1,8 @@
+# GetGeometricScene definition
+
+string owner
+string[] entities_of_interest
+---
+Entity[] entities
+bool success
+string error

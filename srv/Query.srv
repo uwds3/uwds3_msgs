@@ -1,0 +1,7 @@
+# Query definition
+
+string query
+---
+string[] response
+bool success
+string error

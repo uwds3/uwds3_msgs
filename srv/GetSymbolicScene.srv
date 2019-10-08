@@ -1,0 +1,9 @@
+# GetSymbolicScene definition
+
+string owner
+string[] entities_of_interest
+string[] relations_of_interest
+---
+RelationMatrix[] relations
+bool success
+string error

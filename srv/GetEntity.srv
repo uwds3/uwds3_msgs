@@ -1,0 +1,7 @@
+# GetEntity definition
+
+string entity_id
+---
+Entity entity
+bool success
+string error

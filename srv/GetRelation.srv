@@ -1,0 +1,9 @@
+# GetRelation definition
+
+string subject_id
+string relation
+string object_id
+---
+float64 confidence
+bool success
+string error
