@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
   shape_msgs
+  sensor_msgs
   geometry_msgs
 )
 
@@ -53,22 +54,27 @@ add_message_files(
  SceneChanges.msg
  SceneChangesStamped.msg
  Status.msg
- Entity.msg
- EntityArray.msg
+ Node.msg
+ NodeArrayStamped.msg
  Event.msg
+ EventStamped.msg
  Feature.msg
  Mesh.msg
  PrimitiveShape.msg
+ Property.msg
  RelationMatrix.msg
+ RelationMatrixArrayStamped.msg
  TemporalRelation.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
  FILES
- GetEntity.srv
+ GetNode.srv
  GetMesh.srv
  GetRelation.srv
+ GetGeometricScene.srv
+ GetSymbolicScene.srv
  Query.srv
 )
 
@@ -84,6 +90,7 @@ generate_messages(
  DEPENDENCIES
  std_msgs
  shape_msgs
+ sensor_msgs
  geometry_msgs
 )
 

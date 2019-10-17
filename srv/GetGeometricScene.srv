@@ -1,8 +1,9 @@
 # GetGeometricScene definition
 
-string owner
+string world
 string[] entities_of_interest
 ---
-Entity[] entities
+RootNode root_node
+Node[] nodes
 bool success
 string error

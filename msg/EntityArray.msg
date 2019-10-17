@@ -1,3 +1,0 @@
-# EntityArray definition
-
-Entity[] entities
