@@ -1,8 +1,7 @@
-# Node definition
+# SceneNode definition
 
 string id
 string label
-string class
 string parent
 string[] children
 bool is_located

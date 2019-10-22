@@ -2,6 +2,6 @@
 
 string node_id
 ---
-Node node
+SceneNode node
 bool success
 string error

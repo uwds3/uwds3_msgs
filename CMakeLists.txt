@@ -54,8 +54,9 @@ add_message_files(
  SceneChanges.msg
  SceneChangesStamped.msg
  Status.msg
- Node.msg
- NodeArrayStamped.msg
+ SceneNode.msg
+ SceneRootNode.msg
+ SceneNodeArrayStamped.msg
  Event.msg
  EventStamped.msg
  Feature.msg
@@ -70,7 +71,7 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
  FILES
- GetNode.srv
+ GetSceneNode.srv
  GetMesh.srv
  GetRelation.srv
  GetGeometricScene.srv

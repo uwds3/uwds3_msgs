@@ -1,7 +1,7 @@
 # Changes definition
 
 # The entities updates
-Node[] nodes
+SceneNode[] nodes
 
 # The relations updates
 RelationMatrix[] relations
