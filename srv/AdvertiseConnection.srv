@@ -1,0 +1,17 @@
+# AdvertiseConnection definition
+
+# Interaction types :
+uint8 READ=0
+uint8 WRITE=1
+
+# Action types :
+uint8 CONNECT=0
+uint8 DISCONNECT=1
+
+string world
+string client_id
+uint8 type
+uint8 action
+---
+bool success
+string error

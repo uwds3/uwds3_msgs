@@ -11,7 +11,7 @@ bool has_shape
 PrimitiveShape shape
 string[] meshes
 bool has_camera
-sensor_msgs/CameraInfo camera_info
+sensor_msgs/CameraInfo camera
 Feature[] features
 Property[] properties
 time last_update

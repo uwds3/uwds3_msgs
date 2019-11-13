@@ -1,8 +1,7 @@
 # GetEntity definition
 
 string world
-string node_id
 ---
-SceneNode node
+SceneRootNode root_node
 bool success
 string error

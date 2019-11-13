@@ -1,0 +1,8 @@
+# Definition of the get topology service
+
+---
+string[] worlds
+Client[] clients
+ClientInteraction[] client_interactions
+bool success
+string error
