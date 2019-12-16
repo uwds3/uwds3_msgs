@@ -5,8 +5,8 @@ string label
 string parent
 string[] children
 bool is_located
-geometry_msgs/PoseWithCovarianceStamped position
-geometry_msgs/TwistWithCovarianceStamped velocity
+geometry_msgs/PoseWithCovarianceStamped position_with_cov
+geometry_msgs/TwistWithCovarianceStamped velocity_with_cov
 bool has_shape
 PrimitiveShape shape
 string[] meshes

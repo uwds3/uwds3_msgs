@@ -1,4 +1,4 @@
-# Definition of the get topology service
+# GetTopology definition
 
 ---
 string[] worlds

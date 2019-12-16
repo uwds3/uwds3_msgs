@@ -1,0 +1,7 @@
+# GetGeometricPerspective definition
+
+geometry_msgs/PoseStamped point_of_view
+---
+SceneNode[] visible_nodes
+bool success
+string error

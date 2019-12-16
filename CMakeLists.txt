@@ -60,6 +60,8 @@ add_message_files(
  Event.msg
  EventStamped.msg
  Feature.msg
+ FeatureStamped.msg
+ ListStamped.msg
  Mesh.msg
  PrimitiveShape.msg
  Property.msg
