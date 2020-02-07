@@ -1,7 +1,0 @@
-# GetEntity definition
-
-string world
----
-SceneRootNode root_node
-bool success
-string error

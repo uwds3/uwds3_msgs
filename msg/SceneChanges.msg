@@ -10,4 +10,4 @@ RelationMatrix[] relations
 Mesh[] meshes
 
 # The event updates
-Event[] events
+TemporalRelation[] events

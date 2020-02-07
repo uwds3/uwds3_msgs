@@ -3,7 +3,6 @@
 string world
 string[] entities_of_interest
 ---
-SceneRootNode root_node
 SceneNode[] nodes
 bool success
 string error

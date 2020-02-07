@@ -51,33 +51,38 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
  FILES
- SceneChanges.msg
- SceneChangesStamped.msg
- Status.msg
- SceneNode.msg
- SceneRootNode.msg
- SceneNodeArrayStamped.msg
- Event.msg
- EventStamped.msg
- Feature.msg
- FeatureStamped.msg
+ Camera.msg
+ Client.msg
+ ClientInteraction.msg
+ Features.msg
+ FeaturesStamped.msg
  ListStamped.msg
  Mesh.msg
  PrimitiveShape.msg
  Property.msg
  RelationMatrix.msg
  RelationMatrixArrayStamped.msg
+ SceneChanges.msg
+ SceneChangesStamped.msg
+ SceneNode.msg
+ SceneNodeArrayStamped.msg
+ Status.msg
  TemporalRelation.msg
+ WorldsChangesStamped.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
  FILES
- GetSceneNode.srv
+ AdvertiseConnection.srv
+ GetGeometricPerspective.srv
+ GetGeometricScene.srv
  GetMesh.srv
  GetRelation.srv
- GetGeometricScene.srv
+ GetSceneNode.srv
+ GetStatus.srv
  GetSymbolicScene.srv
+ GetTopology.srv
  Query.srv
 )
 

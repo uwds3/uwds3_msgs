@@ -2,6 +2,7 @@
 
 string id # The unique ID of the mesh
 geometry_msgs/Pose position # The relative pose from the entity
+string mesh_ressource # If the mesh ressource is not empty then the triangles/vertices/vertex_colors are ignored
 shape_msgs/MeshTriangle[] triangles # The triangles of the mesh
 geometry_msgs/Point[] vertices # The vertices of the mesh
 std_msgs/ColorRGBA[] vertex_colors # The vertex colors

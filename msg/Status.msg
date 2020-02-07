@@ -1,5 +1,6 @@
 # Client status
 
+# ClientStatusType definition:
 uint8 INIT = 0
 uint8 RUN = 1
 uint8 STOP = 2

@@ -1,6 +1,8 @@
 # GetGeometricPerspective definition
 
 geometry_msgs/PoseStamped point_of_view
+bool use_target
+geometry_msgs/PointStamped target
 ---
 SceneNode[] visible_nodes
 bool success
