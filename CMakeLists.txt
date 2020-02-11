@@ -56,8 +56,6 @@ add_message_files(
  ClientInteraction.msg
  Features.msg
  FeaturesStamped.msg
- ListStamped.msg
- Mesh.msg
  PrimitiveShape.msg
  Property.msg
  RelationMatrix.msg
@@ -77,7 +75,6 @@ add_service_files(
  AdvertiseConnection.srv
  GetGeometricPerspective.srv
  GetGeometricScene.srv
- GetMesh.srv
  GetRelation.srv
  GetSceneNode.srv
  GetStatus.srv

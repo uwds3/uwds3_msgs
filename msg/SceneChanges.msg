@@ -3,11 +3,8 @@
 # The entities updates
 SceneNode[] nodes
 
-# The relations updates
+# The relations matrix updates
 RelationMatrix[] relations
-
-# The meshes updates
-Mesh[] meshes
 
 # The event updates
 TemporalRelation[] events
