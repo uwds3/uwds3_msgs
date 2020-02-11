@@ -4,8 +4,8 @@
 uint8 OBJECT = 0
 uint8 AGENT = 1
 
-string uuid
-string class_label
+string id
+string label
 string parent
 uint8 type
 string description
