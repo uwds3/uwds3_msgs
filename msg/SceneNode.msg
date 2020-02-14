@@ -12,6 +12,7 @@ string description
 bool is_located
 geometry_msgs/PoseWithCovarianceStamped pose_stamped
 geometry_msgs/TwistWithCovarianceStamped twist_stamped
+geometry_msgs/AccelWithCovarianceStamped accel_stamped
 bool has_shape
 PrimitiveShape shape
 bool has_camera

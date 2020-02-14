@@ -56,6 +56,7 @@ add_message_files(
  ClientInteraction.msg
  Features.msg
  FeaturesStamped.msg
+ ListStamped.msg
  PrimitiveShape.msg
  Property.msg
  RelationMatrix.msg

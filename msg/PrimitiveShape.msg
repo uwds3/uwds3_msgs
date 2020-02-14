@@ -14,6 +14,7 @@ uint8 MESH = 3
 uint8 type # The type of shape
 geometry_msgs/Pose pose # The relative pose from the entity
 float64[] dimensions # The dimensions of the shape
+std_msgs/ColorRGBA color # the dominant color of the shape
 string mesh_resource # If the mesh resource is not empty then the triangles/vertices/vertex_colors are ignored
 shape_msgs/MeshTriangle[] triangles # The triangles of the mesh
 geometry_msgs/Point[] vertices # The vertices of the mesh
