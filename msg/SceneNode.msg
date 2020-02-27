@@ -14,7 +14,7 @@ geometry_msgs/PoseWithCovarianceStamped pose_stamped
 geometry_msgs/TwistWithCovarianceStamped twist_stamped
 geometry_msgs/AccelWithCovarianceStamped accel_stamped
 bool has_shape
-PrimitiveShape[] shape
+PrimitiveShape[] shapes
 bool has_camera
 Camera camera
 Features[] features
